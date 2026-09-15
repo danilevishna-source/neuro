@@ -8,4 +8,4 @@
 
 .language-flag{font-size:18px;line-height:1;letter-spacing:0;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif}
 
-.brand-mark img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+.brand-mark{overflow:hidden;isolation:isolate}.brand-mark img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:inherit}.brand-mark:after{content:"";position:absolute;inset:0;border:1px solid #8b6f4760;border-radius:inherit;pointer-events:none}.brand-mark i{right:4px;bottom:4px}
